@@ -21,9 +21,24 @@ Filtro: #171B27 - opacidad 54%
 }
 * {
     box-sizing: border-box;
+
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+}
+
+ul,
+li {
+    list-style: none;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    margin: 0;
+=======
     margin:0px;
     padding:0px;
     font-family: 'Playfair Display', serif;
+
 }
 body{
     width: 100vw;
@@ -137,6 +152,14 @@ div.nombre{
     bottom: -5px;
     left: -5px;
 }
+
+
+@media (min-width: 820px) {
+    div.fondo {
+        background-image: url(/img/Fondos/Background.jpg);
+        background-size: cover;
+    }
+=======
 
 
 #barraDesktop,
