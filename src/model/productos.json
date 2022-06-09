@@ -1,0 +1,45 @@
+[
+    {
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },
+    {
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },{
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },{
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },{
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },{
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },{
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    },{
+        "tipo": "Juego",
+        "titulo": "Stardew Valley",
+        "imagen": "./img/productos/juegos/stardewvaley.png",
+        "descripcion": "Stardew Valley es un juego de simulación de granja inspirado en juegos como Harvest Moon."
+    }
+   
+]

@@ -66,29 +66,7 @@
     animation-duration: 5s;
     animation-iteration-count: 1;
 }
-/*@keyframes presentacion {
-    0% {
-        visibility: hidden;
-        transform: translate(0px, -300px);
-    }
 
-    25% {
-        opacity: 25%;
-    }
-
-    50% {
-        opacity: 50%;
-    }
-
-    75% {
-        opacity: 70%
-    }
-
-    100% {
-        visibility: visible;
-        transform: translate(0px);
-    }
-}*/
 @keyframes presentacion {
     0% {
         visibility: hidden;

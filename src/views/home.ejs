@@ -168,7 +168,11 @@
             <section class="novedades">
                 <h2 class="novedades__titulo"> Lo que no te podés perder </h2>
                 <div class="novedades__container">
-                    <div class="novedades_product" id="uno">
+
+                    <%db.forEach(db => {%>
+                        <%- include("./partials/slider.ejs", {db})%>
+                    <%})%>
+                    <!--- <div class="novedades_product" id="uno">
                         <h4 class="novedades_product--tipo">Pelicula</h4>
                         <h3 class="novedades_product--titulo"></h3>
                         <div class="novedades_product--descripcion">Strange World es la nueva aventura animada <br> de
@@ -235,7 +239,8 @@
                             supuesto el equipaje se robó nuestros co.. <br> Esperen... ¿dónde está Nico? </div>
                         <div class="novedades_product--icons"><i class="iconify" data-icon="mdi:basket"></i> <i
                                 class="iconify" data-icon="pepicons:bookmark-print"></i></div>
-                    </div>
+                   -->
+                </div>
 
 
             </section>

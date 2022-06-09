@@ -1,0 +1,28 @@
+[{
+    "tipo": "Literatura",
+    "Subcategorias": ["Libro", "Audiolibro", "Historieta", "Manga"],
+    "Descripcion": "Literatura en formato texto que puede incluir ilustraciones o ser centralmente ilustrado pero NO esta estructurado a partir de cuadros ",
+    "Hashtags": "# # # # # # # #  # # #."
+},
+{
+    "tipo": "Literatura",
+    "Subcategoria": "Audiolibro",
+    "Definicion": "Literatura en formato audio",
+    "Hashtags": "# # # # # # # #  # # #."
+},{
+    "tipo": "Literatura",
+    "Subcategoria": "Historieta",
+    "Definicion": "Literatura gráfica narrada centralmente en cuadros",
+    "Hashtags": "# # # # # # # #  # # #."
+},{
+    "tipo": "Literatura",
+    "Subcategoria": "Libro",
+    "Definicion": "Literatura en formato texto que puede incluir ilustraciones o ser centralmente ilustrado pero NO esta estructurado a partir de cuadros ",
+    "Hashtags": "# # # # # # # #  # # #."
+},{
+    "tipo": "Literatura",
+    "Subcategoria": "Libro",
+    "Definicion": "Literatura en formato texto que puede incluir ilustraciones o ser centralmente ilustrado pero NO esta estructurado a partir de cuadros ",
+    "Hashtags": "# # # # # # # #  # # #."
+}
+]
