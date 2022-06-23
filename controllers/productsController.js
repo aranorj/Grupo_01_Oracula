@@ -19,6 +19,10 @@ const productsController = {
     //productEdit
     edit: (req,res) => {
         res.render('./products/productEdit', {titulo: "Editar producto"});
+    },
+
+    categoria: (req, res) => {
+        res.render('categoria');
     }
 };
 module.exports = productsController;

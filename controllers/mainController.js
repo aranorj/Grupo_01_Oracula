@@ -5,6 +5,8 @@ const mainController = {
     //home.html
     home: (req, res) => {
         res.render('home', {titulo: "Bienvenidxs a Orácula"});
-    }
+    },
+
+
 };
 module.exports = mainController;
