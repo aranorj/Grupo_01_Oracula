@@ -197,7 +197,7 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     background-color: var(--gris-claro);
     box-shadow: 0 0 10px var(--gris-claro);
     position: relative;
-    left: -80px;
+    left: 0px;
     width: fit-content;
     height: 45px;
     display: inline-block;
