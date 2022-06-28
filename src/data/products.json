@@ -509,7 +509,7 @@
         "esNovedad": false,
         "esDestacado": true,
         "esOferta": true,
-        "descuento": "",
+        "descuento": "10",
         "fechaDeCreacion": "2022-06-28T21:46:01.785Z"
     },
     {
