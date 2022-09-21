@@ -34,6 +34,7 @@ module.exports = (sequelize, dataTypes) => {
             through: "AttributeProduct"
         })        
 
+
     }
 
     return Attribute;

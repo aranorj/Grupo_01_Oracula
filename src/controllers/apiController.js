@@ -1,3 +1,4 @@
+const { Sequelize, sequelize } = require('../database/models');
 const db = require('../database/models');
 
 const apiController = {
@@ -10,7 +11,7 @@ const apiController = {
                         id: user.id,
                         name: `${user.nombre} ${user.apellido}`,
                         email: user.email,
-                        detail: `http://localhost:3200/api/users/${user.id}`,
+                        detail: `/api/users/${user.id}`,
                     }
                     usersData.push(usuarie)
                 });
@@ -30,10 +31,17 @@ const apiController = {
 
     productDetail: (req, res) => {
         db.Product.findByPk(req.params.id, {
-            include: ["image", "attribute", "genre"
-            ]
+            include: ["image", {
+                model: db.Attribute,
+                as: "attribute",
+                attributes:{exclude: "subcategoryID"},
+                through: {attributes: []},
+             }]
+
         })
             .then(product => {
+
+                return res.status(200).json(product);
 
                 let atributos = [];
                 product.attribute.forEach(element => {
@@ -55,22 +63,30 @@ const apiController = {
                     generos.push(genero)
                 });
            
-                product = {
-                    id: product.id,
-                    nombre: product.nombre,
-                    categoryID: product.categoryID,
-                    subcategoryID: product.subcategoryID,
-                    precio: product.precio,
-                    descuento: product.descuento,
-                    esNovedad: product.esNovedad,
-                    esDestacado: product.esDestacado,
-                    esMagicPass: product.esMagicPass,
-                    imagenes: product.image,
-                    attributes: atributos,
-                    generos: generos
-                }
+                // product = {
+                //     id: product.id,
+                //     nombre: product.nombre,
+                //     categoryID: product.categoryID,
+                //     subcategoryID: product.subcategoryID,
+                //     precio: product.precio,
+                //     descuento: product.descuento,
+                //     esNovedad: product.esNovedad,
+                //     esDestacado: product.esDestacado,
+                //     esMagicPass: product.esMagicPass,
+                //     imagenes: product.image,
+                //     attributes: atributos,
+                //     generos: generos
+                // }
+
+               
+              //  let productNuevo = {...product};
+
+                product.attribute = atributos;
+                product.genre = generos; 
                 
-                res.status(200).json(product)
+                console.log(product);
+                
+                res.status(200).json(product);
             })
 
             .catch(error => {
